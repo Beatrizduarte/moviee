@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+header{
+  width: 100%;
+  height: 80px;
+  background: #F9F9F9;
+  display: flex;
+  align-items: center;
+}
+
+header div.container-header{
+  width: 940px;
+  margin: 0 auto;
+}
+
+header div.container-header a{
+  display: flex;
+}
+
+header div.container-header span{
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2169b1;
+}
+
+header div.container-header img{
+  margin-right: 15px;
+}
+
+section div.container-content{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.page-moviedetail div.container-content h2{
+  margin: 46px 0 10px 0;
+  font-size: 24px;
+  font-family: 'Cinzel', serif;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.page-moviedetail div.container-detail{
+  max-width: 940px;
+  height: 452px;
+  margin: 15px auto 40px auto;
+  background: #f9f9f9;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+}
+
+.page-moviedetail div.container-detail img{
+  max-width: 400px;
+  height: 452px;
+  display: block;
+  border-radius: 10px 0 0 10px;
+}
+
+.page-moviedetail div.text-detail{
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.page-moviedetail div.container-detail h3{
+  font-size: 24px;
+  margin: 30px 0 0 30px;
+  color: #222426;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+}
+
+.page-moviedetail div.descri-detail{
+  display: flex;
+}
+
+.page-moviedetail div.descri-detail p{
+  margin: 15px 0px 0px 30px;
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  color:#222426;
+}
+
+.page-moviedetail div.descri-detail span{
+  color:#FFA931;
+}
+
+.page-moviedetail div.text-detail > p:last-child{
+    color: #222426;
+    margin: 20px 0 0 30px;
+}

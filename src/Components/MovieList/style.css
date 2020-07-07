@@ -1,0 +1,69 @@
+.container-movielist section.all-cards{
+  padding: 50px 0;
+}
+
+.container-movielist section.all-cards h2{
+  margin: 10px 0 40px 43px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  font-weight: 400;
+}
+
+.container-movielist ul{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 40px;
+}
+
+.container-movielist div.card-movie{
+  width: 150px;
+}
+
+.container-movielist div.card-movie:hover{
+  -ms-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
+  box-shadow:  5px 6px 15px #d99666, -5px -5px 15px #ffcc8a;
+}
+
+.container-movielist div.card-movie a{
+  position: relative;
+}
+.container-movielist div.card-movie img{
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container-movielist div.card-movie h3{
+  padding: 5px 0 10px 0;
+  max-width: 150px;
+  font-size: 14px;
+  color: #F5F6F0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.container-movielist div.cicle-vote{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: 20px;
+  right: -16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ED802E;
+  border-radius: 50%;
+  padding: 6px 4px;
+}
+
+.container-movielist div.cicle-vote p{
+  font-size: 14px;
+  color: #F5F6F0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+
